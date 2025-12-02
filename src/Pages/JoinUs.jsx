@@ -3,7 +3,7 @@ import BusinessCard from "../Components/BusinessesCard";
 import PartnersHome from "../Components/PartnersHome";
 import PartnersHero from "../Components/PartnersHero";
 
-function Partners() {
+function JoinUs() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -16,4 +16,4 @@ function Partners() {
   );
 }
 
-export default Partners;
+export default JoinUs;

@@ -10,8 +10,8 @@ export default function Header() {
     { label: "Home", path: "/" },
     { label: "About Us", path: "/about" },
     { label: "Our Services", path: "/services" },
-    { label: "Our Partners", path: "/partners" },
     { label: "Contact Us", path: "/contact" },
+    { label: "Join BiggBrains", path: "/join-us" },
   ];
 
   const handleNavigation = (path) => {
@@ -29,7 +29,7 @@ export default function Header() {
           <img
             src="/src/assets/BiggBrainsLogo.svg"
             alt="logo"
-            className="h-10 cursor-pointer"
+            className="h-10 cursor-pointer object-contain"
             onClick={() => navigate("/")}
           />
 
@@ -39,7 +39,7 @@ export default function Header() {
               <span
                 key={item.label}
                 onClick={() => navigate(item.path)}
-                className="text-white font-medium cursor-pointer hover:opacity-80 transition"
+                className="text-black font-medium cursor-pointer hover:opacity-80 transition"
               >
                 {item.label}
               </span>
@@ -57,7 +57,7 @@ export default function Header() {
           {/* Mobile Menu Icon */}
           <button
             onClick={() => setDrawerOpen(true)}
-            className="md:hidden text-white"
+            className="md:hidden text-black"
           >
             <Menu size={28} />
           </button>
@@ -87,7 +87,7 @@ export default function Header() {
             <img
               src="/src/assets/BiggBrainsLogo.svg"
               alt="logo"
-              className="h-8"
+              className="h-8 object-contain"
             />
             <button onClick={() => setDrawerOpen(false)}>
               <X size={24} />
