@@ -11,8 +11,8 @@ export default function HomeHero() {
         position: "relative",
         bgcolor: "#fdfdfd",
         maxWidth: "100%",
-        height: {xs:"90vh", md:"100vh"},
-      mt: { xs: 25 ,md:1}
+        height: { xs: "90vh", md: "100vh" },
+        mt: { xs: 25, md: 1 },
       }}
     >
       <Grid
@@ -47,7 +47,7 @@ export default function HomeHero() {
               lineHeight: 1,
             }}
           >
-            Your Trusted <br />
+            Your Trusted BiggBrains <br />
             Partner in Digital <br />
             Finance.!
           </Typography>
