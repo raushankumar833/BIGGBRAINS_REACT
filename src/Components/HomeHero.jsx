@@ -11,8 +11,8 @@ export default function HomeHero() {
         position: "relative",
         bgcolor: "#fdfdfd",
         maxWidth: "100%",
-        height: {xs:"90vh", md:"100vh"},
-      mt: { xs: 25 ,md:1}
+        height: { xs: "90vh", md: "100vh" },
+        mt: { xs: 25, md: 1 },
       }}
     >
       <Grid
@@ -52,21 +52,12 @@ export default function HomeHero() {
             Finance.!
           </Typography>
 
-          <Typography
-            variant="body1"
-            sx={{
-              fontWeight: 550,
-              mb: 3,
-              maxWidth: 500,
-              fontSize: "1.1rem",
-              color: "text.secondary",
-            }}
-          >
-            P2PAE is a trusted fintech leader with 10+ years of experience,
+          <p className="mb-3 max-w-[500px] text-[1.1rem] font-semibold text-green-500">
+            BiggBrains is a trusted fintech leader with 10+ years of experience,
             simplifying and securing online transactions. Recognized as one of
             India’s fastest-growing names, we help businesses streamline
             payments, boost security, and scale with confidence.
-          </Typography>
+          </p>
 
           <Stack direction="row" spacing={2}>
             <Button
@@ -149,7 +140,7 @@ export default function HomeHero() {
                   src="/src/assets/SITE DESIGN .png"
                   alt="scroll image"
                   style={{
-                    width: "85%",
+                    width: "95%",
                     maxWidth: "220px",
                     height: "auto",
                     display: "block",
@@ -190,7 +181,7 @@ export default function HomeHero() {
                   alt="scroll image"
                   style={{
                     width: "95%",
-                    maxWidth: "420px",
+                    maxWidth: "480px",
                     height: "auto",
                     display: "block",
                     marginBottom: "1rem",
