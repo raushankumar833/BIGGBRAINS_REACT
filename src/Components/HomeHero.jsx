@@ -47,7 +47,7 @@ export default function HomeHero() {
               lineHeight: 1,
             }}
           >
-            Your Trusted BiggBrains <br />
+            Your Trusted <br />
             Partner in Digital <br />
             Finance.!
           </Typography>
